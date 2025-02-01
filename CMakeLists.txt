@@ -4,6 +4,7 @@ project(prod_app)
 set(SOURCE_FILES
     main.c
     terminal.c
+    daemon.c
 )
 find_package(raylib REQUIRED)
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})

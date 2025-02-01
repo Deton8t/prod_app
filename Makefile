@@ -129,6 +129,30 @@ prod_app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prod_app.dir/build.make CMakeFiles/prod_app.dir/build
 .PHONY : prod_app/fast
 
+daemon.o: daemon.c.o
+.PHONY : daemon.o
+
+# target to build an object file
+daemon.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prod_app.dir/build.make CMakeFiles/prod_app.dir/daemon.c.o
+.PHONY : daemon.c.o
+
+daemon.i: daemon.c.i
+.PHONY : daemon.i
+
+# target to preprocess a source file
+daemon.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prod_app.dir/build.make CMakeFiles/prod_app.dir/daemon.c.i
+.PHONY : daemon.c.i
+
+daemon.s: daemon.c.s
+.PHONY : daemon.s
+
+# target to generate assembly for a file
+daemon.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prod_app.dir/build.make CMakeFiles/prod_app.dir/daemon.c.s
+.PHONY : daemon.c.s
+
 main.o: main.c.o
 .PHONY : main.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... prod_app"
+	@echo "... daemon.o"
+	@echo "... daemon.i"
+	@echo "... daemon.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

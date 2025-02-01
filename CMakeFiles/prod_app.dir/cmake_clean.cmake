@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/prod_app.dir/link.d"
+  "CMakeFiles/prod_app.dir/daemon.c.o"
+  "CMakeFiles/prod_app.dir/daemon.c.o.d"
   "CMakeFiles/prod_app.dir/main.c.o"
   "CMakeFiles/prod_app.dir/main.c.o.d"
   "CMakeFiles/prod_app.dir/terminal.c.o"

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/nate/Code/C/prod_app/daemon.c" "CMakeFiles/prod_app.dir/daemon.c.o" "gcc" "CMakeFiles/prod_app.dir/daemon.c.o.d"
   "/home/nate/Code/C/prod_app/main.c" "CMakeFiles/prod_app.dir/main.c.o" "gcc" "CMakeFiles/prod_app.dir/main.c.o.d"
   "/home/nate/Code/C/prod_app/terminal.c" "CMakeFiles/prod_app.dir/terminal.c.o" "gcc" "CMakeFiles/prod_app.dir/terminal.c.o.d"
   "" "prod_app" "gcc" "CMakeFiles/prod_app.dir/link.d"

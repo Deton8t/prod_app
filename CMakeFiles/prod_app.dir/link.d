@@ -4,6 +4,7 @@ prod_app: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o \
   CMakeFiles/prod_app.dir/main.c.o \
   CMakeFiles/prod_app.dir/terminal.c.o \
+  CMakeFiles/prod_app.dir/daemon.c.o \
   /usr/lib/libraylib.so \
   /usr/lib/libm.so \
   /usr/lib/libm.so \
@@ -58,6 +59,8 @@ prod_app: \
 CMakeFiles/prod_app.dir/main.c.o:
 
 CMakeFiles/prod_app.dir/terminal.c.o:
+
+CMakeFiles/prod_app.dir/daemon.c.o:
 
 /usr/lib/libraylib.so:
 
