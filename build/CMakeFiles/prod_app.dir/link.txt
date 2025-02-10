@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wl,--dependency-file=CMakeFiles/prod_app.dir/link.d CMakeFiles/prod_app.dir/main.c.o CMakeFiles/prod_app.dir/terminal.c.o CMakeFiles/prod_app.dir/daemon.c.o CMakeFiles/prod_app.dir/app.c.o -o prod_app  /usr/lib/libraylib.so -lm -lGL -lpthread -ldl -lrt -lX11 -L/usr/lib -lraylib
