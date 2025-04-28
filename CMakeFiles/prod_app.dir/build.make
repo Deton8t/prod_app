@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/nate/Code/C/prod_app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nate/Code/C/prod_app/build
+CMAKE_BINARY_DIR = /home/nate/Code/C/prod_app
 
 # Include any dependencies generated for this target.
 include CMakeFiles/prod_app.dir/depend.make
@@ -73,60 +73,60 @@ CMakeFiles/prod_app.dir/codegen:
 .PHONY : CMakeFiles/prod_app.dir/codegen
 
 CMakeFiles/prod_app.dir/main.c.o: CMakeFiles/prod_app.dir/flags.make
-CMakeFiles/prod_app.dir/main.c.o: /home/nate/Code/C/prod_app/main.c
+CMakeFiles/prod_app.dir/main.c.o: main.c
 CMakeFiles/prod_app.dir/main.c.o: CMakeFiles/prod_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nate/Code/C/prod_app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/prod_app.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/prod_app.dir/main.c.o -MF CMakeFiles/prod_app.dir/main.c.o.d -o CMakeFiles/prod_app.dir/main.c.o -c /home/nate/Code/C/prod_app/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nate/Code/C/prod_app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/prod_app.dir/main.c.o"
+	/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/prod_app.dir/main.c.o -MF CMakeFiles/prod_app.dir/main.c.o.d -o CMakeFiles/prod_app.dir/main.c.o -c /home/nate/Code/C/prod_app/main.c
 
 CMakeFiles/prod_app.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/prod_app.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nate/Code/C/prod_app/main.c > CMakeFiles/prod_app.dir/main.c.i
+	/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nate/Code/C/prod_app/main.c > CMakeFiles/prod_app.dir/main.c.i
 
 CMakeFiles/prod_app.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/prod_app.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nate/Code/C/prod_app/main.c -o CMakeFiles/prod_app.dir/main.c.s
+	/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nate/Code/C/prod_app/main.c -o CMakeFiles/prod_app.dir/main.c.s
 
 CMakeFiles/prod_app.dir/terminal.c.o: CMakeFiles/prod_app.dir/flags.make
-CMakeFiles/prod_app.dir/terminal.c.o: /home/nate/Code/C/prod_app/terminal.c
+CMakeFiles/prod_app.dir/terminal.c.o: terminal.c
 CMakeFiles/prod_app.dir/terminal.c.o: CMakeFiles/prod_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nate/Code/C/prod_app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/prod_app.dir/terminal.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/prod_app.dir/terminal.c.o -MF CMakeFiles/prod_app.dir/terminal.c.o.d -o CMakeFiles/prod_app.dir/terminal.c.o -c /home/nate/Code/C/prod_app/terminal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nate/Code/C/prod_app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/prod_app.dir/terminal.c.o"
+	/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/prod_app.dir/terminal.c.o -MF CMakeFiles/prod_app.dir/terminal.c.o.d -o CMakeFiles/prod_app.dir/terminal.c.o -c /home/nate/Code/C/prod_app/terminal.c
 
 CMakeFiles/prod_app.dir/terminal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/prod_app.dir/terminal.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nate/Code/C/prod_app/terminal.c > CMakeFiles/prod_app.dir/terminal.c.i
+	/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nate/Code/C/prod_app/terminal.c > CMakeFiles/prod_app.dir/terminal.c.i
 
 CMakeFiles/prod_app.dir/terminal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/prod_app.dir/terminal.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nate/Code/C/prod_app/terminal.c -o CMakeFiles/prod_app.dir/terminal.c.s
+	/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nate/Code/C/prod_app/terminal.c -o CMakeFiles/prod_app.dir/terminal.c.s
 
 CMakeFiles/prod_app.dir/daemon.c.o: CMakeFiles/prod_app.dir/flags.make
-CMakeFiles/prod_app.dir/daemon.c.o: /home/nate/Code/C/prod_app/daemon.c
+CMakeFiles/prod_app.dir/daemon.c.o: daemon.c
 CMakeFiles/prod_app.dir/daemon.c.o: CMakeFiles/prod_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nate/Code/C/prod_app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/prod_app.dir/daemon.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/prod_app.dir/daemon.c.o -MF CMakeFiles/prod_app.dir/daemon.c.o.d -o CMakeFiles/prod_app.dir/daemon.c.o -c /home/nate/Code/C/prod_app/daemon.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nate/Code/C/prod_app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/prod_app.dir/daemon.c.o"
+	/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/prod_app.dir/daemon.c.o -MF CMakeFiles/prod_app.dir/daemon.c.o.d -o CMakeFiles/prod_app.dir/daemon.c.o -c /home/nate/Code/C/prod_app/daemon.c
 
 CMakeFiles/prod_app.dir/daemon.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/prod_app.dir/daemon.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nate/Code/C/prod_app/daemon.c > CMakeFiles/prod_app.dir/daemon.c.i
+	/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nate/Code/C/prod_app/daemon.c > CMakeFiles/prod_app.dir/daemon.c.i
 
 CMakeFiles/prod_app.dir/daemon.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/prod_app.dir/daemon.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nate/Code/C/prod_app/daemon.c -o CMakeFiles/prod_app.dir/daemon.c.s
+	/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nate/Code/C/prod_app/daemon.c -o CMakeFiles/prod_app.dir/daemon.c.s
 
 CMakeFiles/prod_app.dir/app.c.o: CMakeFiles/prod_app.dir/flags.make
-CMakeFiles/prod_app.dir/app.c.o: /home/nate/Code/C/prod_app/app.c
+CMakeFiles/prod_app.dir/app.c.o: app.c
 CMakeFiles/prod_app.dir/app.c.o: CMakeFiles/prod_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nate/Code/C/prod_app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/prod_app.dir/app.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/prod_app.dir/app.c.o -MF CMakeFiles/prod_app.dir/app.c.o.d -o CMakeFiles/prod_app.dir/app.c.o -c /home/nate/Code/C/prod_app/app.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nate/Code/C/prod_app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/prod_app.dir/app.c.o"
+	/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/prod_app.dir/app.c.o -MF CMakeFiles/prod_app.dir/app.c.o.d -o CMakeFiles/prod_app.dir/app.c.o -c /home/nate/Code/C/prod_app/app.c
 
 CMakeFiles/prod_app.dir/app.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/prod_app.dir/app.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nate/Code/C/prod_app/app.c > CMakeFiles/prod_app.dir/app.c.i
+	/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nate/Code/C/prod_app/app.c > CMakeFiles/prod_app.dir/app.c.i
 
 CMakeFiles/prod_app.dir/app.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/prod_app.dir/app.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nate/Code/C/prod_app/app.c -o CMakeFiles/prod_app.dir/app.c.s
+	/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nate/Code/C/prod_app/app.c -o CMakeFiles/prod_app.dir/app.c.s
 
 # Object files for target prod_app
 prod_app_OBJECTS = \
@@ -146,7 +146,7 @@ prod_app: CMakeFiles/prod_app.dir/build.make
 prod_app: CMakeFiles/prod_app.dir/compiler_depend.ts
 prod_app: /usr/lib/libraylib.so
 prod_app: CMakeFiles/prod_app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nate/Code/C/prod_app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable prod_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nate/Code/C/prod_app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable prod_app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/prod_app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -158,6 +158,6 @@ CMakeFiles/prod_app.dir/clean:
 .PHONY : CMakeFiles/prod_app.dir/clean
 
 CMakeFiles/prod_app.dir/depend:
-	cd /home/nate/Code/C/prod_app/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nate/Code/C/prod_app /home/nate/Code/C/prod_app /home/nate/Code/C/prod_app/build /home/nate/Code/C/prod_app/build /home/nate/Code/C/prod_app/build/CMakeFiles/prod_app.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nate/Code/C/prod_app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nate/Code/C/prod_app /home/nate/Code/C/prod_app /home/nate/Code/C/prod_app /home/nate/Code/C/prod_app /home/nate/Code/C/prod_app/CMakeFiles/prod_app.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/prod_app.dir/depend
 

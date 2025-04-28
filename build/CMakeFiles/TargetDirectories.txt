@@ -1,3 +1,0 @@
-/home/nate/Code/C/prod_app/build/CMakeFiles/prod_app.dir
-/home/nate/Code/C/prod_app/build/CMakeFiles/edit_cache.dir
-/home/nate/Code/C/prod_app/build/CMakeFiles/rebuild_cache.dir

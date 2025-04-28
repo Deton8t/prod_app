@@ -75,8 +75,6 @@ int main(int argc, char* argv[]) {
         }
         BeginDrawing();
         ClearBackground(GetColor(GuiGetStyle(DEFAULT, BACKGROUND_COLOR)));
-
-        
         EndDrawing();
     }
 }
